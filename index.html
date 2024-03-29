@@ -1,22 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LiveAgent Chat Integration</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Random Telegram Account Redirect</title>
 </head>
 <body>
+   <script>
+      // List of Telegram usernames or links
+      const telegramLinks = [
+          "https://t.me/PHOENIX999AGENTSTAR",
+                "https://t.me/Dhalia154",
+                "https://t.me/mizabela567",
+                "https://t.me/yourfarah20",
+                "https://t.me/ivanadarwish03",
+                "https://t.me/itsxxnn",
+                "https://t.me/MASKTea",
+                "https://t.me/Easta002",
+                "https://t.me/freyachetria1",
+                "https://t.me/saachi2777",
+                "https://t.me/khisp07",
+                "https://t.me/abgl999",
+                "https://t.me/rrlk07",
+        
 
-<!-- Place this where you want the chat button to appear on your webpage -->
-<div id="i8s07adc"></div>
+         // Add more links as needed
+      ];
 
-<!-- The provided LiveAgent integration script -->
-<script type="text/javascript">
-(function(d, src, c) { var t=d.scripts[d.scripts.length - 1],s=d.createElement('script');s.id='la_x2s6df8d';s.defer=true;s.src=src;s.onload=s.onreadystatechange=function(){var rs=this.readyState;if(rs&&(rs!='complete')&&(rs!='loaded')){return;}c(this);};t.parentElement.insertBefore(s,t.nextSibling);})(document,
-'https://indiansalesagentcareers.ladesk.com/scripts/track.js',
-function(e){ LiveAgent.createButton('i8s07adc', e); });
-</script>
+      // Get a random index
+      const randomIndex = Math.floor(Math.random() * telegramLinks.length);
 
+      // Redirect to the random Telegram link
+      window.location.href = telegramLinks[randomIndex];
+   </script>
 </body>
 </html>
-
